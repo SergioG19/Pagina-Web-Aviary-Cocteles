@@ -762,7 +762,7 @@
 }
 
 
-input, textarea {
+.contact__form input, textarea {
   width: 100%;
   padding: 1rem;
   background: #264653;
@@ -776,7 +776,7 @@ input, textarea {
   background-color: #0077b6;
 }
 
-input::placeholder {
+.contact__form input::placeholder {
   color: #a59e8c;
   font-family: Poppins;
 
@@ -865,7 +865,13 @@ textarea {
       width: 100%;
   }
 
-}.cocteles-container{
+}
+
+/* ============================= BUSCAR COCTELES ============================ */
+
+.busqueda h2 { color: var(--color-black) }  
+
+.cocteles-container{
   width: 90vw;
   max-width: 50rem;
   background-color: var(--color-white);
@@ -883,6 +889,7 @@ textarea {
 }
 
 .search-container input{
+  background: var(--color-white);
   font-size: 1rem;
   padding: 0.6rem 0.3rem;
   border: none;
