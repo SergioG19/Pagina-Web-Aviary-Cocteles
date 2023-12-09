@@ -639,49 +639,147 @@
     
   }
 
-  /* ========================= SOBRE NOSOTROS ====================== */
+/* ========================= SOBRE NOSOTROS ====================== */
 
 .about-us {
-  margin-top: 3rem;
-}
+    margin-top: 3rem;
+  }
+  
+  .about-us-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+  }
+  
+  .about-us-left{
+    margin: auto;
+  }
+  
+  .about-us-right > p {
+    margin: 1.6rem 0 2.5rem; 
+  }
+  
+  .about-us-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .about-us-card {
+    background: var(--color-bg2);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+  }
+  
+  .about-us-card:hover {
+    background: var(--color-bg1);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-us-card p, .about-us-card ul {
+    margin-top: 1rem;
+  }
+  
+  /* ========================= TEAM ====================== */
+  
+  .team {
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+  
+  }
+  
+  .team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .team-member {
+    background-color: var(--color-bg2);
+    padding: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+  
+  .team-member:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+  
+  }
+  
+  .team-member-image img{
+    filter: saturate(0);
+  }
+  
+  .team-member:hover img{
+    filter: saturate(1);
+  }
+  
+  .team-member-info * {
+    text-align: center;
+    margin-top: 1.4rem;
+  }
 
-.about-us-container {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  gap: 5rem;
-}
+  .textosobrenosotros {
+    color: #000;
+  }
 
-.about-us-left{
-  margin: auto;
-}
+  .parrafosobre {
+    color: #000;
+  }
+  
+  /* ================= RESPONSIVE (TABLETS) ================= */
+  @media screen and (max-width: 1024px) {
+    .about-us{
+      margin-top: 2rem;
+    }
+  
+    .about-us-container{
+      grid-template-columns: 1fr;
+      gap: 4rem;
+    }
+  
+    .about-us-left {
+      width: 80%;
+      margin: 0 auto;
+  
+    }
+  
+    .team-container{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+  
+    .team-member{
+      padding: 1rem;
+    }
+  }
+  
+  /* ================= RESPONSIVE (SMARTPHONES) ================= */
+  
+  @media screen and (max-width: 600px) {
+    .about-us-cards{
+      grid-template-columns: 1fr 1fr;
+      gap: 0.7rem;
+    }
+  
+    .team-container{
+      grid-template-columns: 1fr 1fr;
+      gap: 0.7rem;
+    }
+  
+    .team-member{
+      padding: 0;
+    }
+  
+    .team-member p {
+      margin-bottom: 1.5rem;
+    }
+  }
 
-.about-us-right > p {
-  margin: 1.6rem 0 2.5rem; 
-}
-
-.about-us-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-.about-us-card {
-  background: var(--color-bg2);
-  padding: 1.5rem;
-  border-radius: 1rem;
-  text-align: center;
-  transition: var(--transition);
-}
-
-.about-us-card:hover {
-  background: var(--color-bg1);
-  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
-}
-
-.about-us-card p, .about-us-card ul {
-  margin-top: 1rem;
-}
-
+ 
 /* ==== Contactanos ==== */
 
 .contact__container{
