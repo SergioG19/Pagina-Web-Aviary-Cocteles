@@ -638,3 +638,47 @@
       }
     
   }
+
+  /* ========================= SOBRE NOSOTROS ====================== */
+
+.about-us {
+  margin-top: 3rem;
+}
+
+.about-us-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 5rem;
+}
+
+.about-us-left{
+  margin: auto;
+}
+
+.about-us-right > p {
+  margin: 1.6rem 0 2.5rem; 
+}
+
+.about-us-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.about-us-card {
+  background: var(--color-bg2);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about-us-card:hover {
+  background: var(--color-bg1);
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.about-us-card p, .about-us-card ul {
+  margin-top: 1rem;
+}
+
