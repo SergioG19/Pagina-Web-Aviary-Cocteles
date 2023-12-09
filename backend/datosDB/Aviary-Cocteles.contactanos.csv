@@ -1,0 +1,4 @@
+_id,nombre,cedula,email,telefono,fecha_nac,imagen,genero,mensaje,createdAt,updatedAt,__v
+657450be3fdffd0df8ed1f77,Sergio González,3021421412,sergio@gmail.com,04125293523,2004-08-03,C:\fakepath\sergio.jpg,Masculino,Hola soy Sergio y tengo un problema con la pagina. Espero su Pronta respuesta,2023-12-09T11:34:22.843Z,2023-12-09T11:34:22.843Z,0
+657451143fdffd0df8ed1f79,Luis Martinez,30123312,luimartinez21@gmail.com,04247253686,2004-08-03,C:\fakepath\luis.jpg,Masculino,Hola soy Luis y tengo un problema con la pagina. Espero su Pronta respuesta,2023-12-09T11:35:48.277Z,2023-12-09T11:35:48.277Z,0
+657451453fdffd0df8ed1f7d,Juan González,28445367,jupagolab@gmail.com,04246867471,2001-05-15,C:\fakepath\juan.jpg,Masculino,Hola soy Juan y tengo un problema con la pagina. Espero su Pronta respuesta,2023-12-09T11:36:37.547Z,2023-12-09T11:36:37.547Z,0
