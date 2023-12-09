@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+
+    <!--ICONOS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--FUENTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contactanos.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">
+                <h4>AVIARY COCTELES</h4>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="cocteles.html">Cocteles</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-list-ui-alt"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <!--FIN DEL LA BARRA DE NAVEGACIÓN-->
+
+    <section class="contact">
+        <div class="container contact__container">
+            <aside class="contact__aside">
+                <div class="aside__image">
+                    <img src="../src/images/contact-us.png">
+                </div>
+                <h2>Contactanos</h2>
+                <p>
+                    ¡No dudes en contactarnos!
+
+                    Estaremos encantados de ayudarte.
+
+                    Puedes contactarnos por correo electrónico, a través de nuestro formulario de contacto, o por teléfono.
+
+                    Nuestro equipo está disponible para ayudarte las 24 horas del día, los 7 días de la semana.
+
+                    No importa si tienes una pregunta sobre una receta, una técnica de preparación, o simplemente quieres compartir tu opinión sobre nuestra página web.
+
+                    Estamos aquí para ayudarte a disfrutar de la coctelería.
+                </p>
+                <ul class="contact__details">
+                    <li>
+                        <i classs="uil uil-phone-times"></i>
+                        <h5>041252935290</h5>
+                    </li>
+                    <li>
+                        <i classs="uil uil-envelope"></i>
+                        <h5>aviarycocteles@gmail.com</h5>
+                    </li>
+                    <li>
+                        <i classs="uil uil-location-point"></i>
+                        <h5>Av Bolivar, Calle 32.</h5>
+                    </li>
+                </ul>
+                <ul class="contact__socials">
+                    <li><a href="https://facebook.com"><i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="https://instagram.com"><i class="uil uil-instagram"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="https://linkedin.com"><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+            </aside>
+
+            <form method="POST" id="form" class="contact__form">
+                <h5>Nombre Completo</h5>
+                <input type="text" name="Name" placeholder="Nombre Completo" required>
+
+                <h5>ID / Cedula</h5>
+                <input type="number" name="ID" placeholder="ID / Cedula" required>
+
+                <h5 class="Text-Formu">Correo Electronico</h5>
+                <input type="email" name="Email" placeholder="Correo Electronico" required>
+
+                <h5 class="Text-Formu">Numero de Telefono</h5>
+                <input type="number" name="Phone" placeholder="Numero de Telefono" required>
+
+                <h5 class="Text-Formu">Fecha de Nacimiento</h5>
+                <input type="date" name="Date" placeholder="Date">
+
+                <h5 class="Text-Formu">Suba su Foto</h5>
+                <input type="file" name="File" accept="image/png, image/jpeg" multiple>
+                <button type="button" id="delete-photos">Eliminar fotos</button>
+
+                <h5 class="Text-Formu">Género</h5>
+                <div class="radio-buttons">
+                    <input type="radio" name="gender" id="dot-1">
+                    <label for="">Masculino</label>
+                    <input type="radio" name="gender" id="dot-2">
+                    <label for="">Femenino</label>
+                    <input type="radio" name="gender" id="dot-3">
+                    <label for="">Prefiero no decir</label>
+                </div>
+
+                <textarea name="Message" placeholder="Mensaje" rows="7" required></textarea>
+
+                <button type="submit" id="btn" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+
+            <!--FIN DEL formulario -->
+
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>Aviary Cocteles</h4>
+                </a>
+                <p>
+                    Descubre un mundo de sabores y aromas, con nuestros cócteles para todos los gustos
+                </p>
+            </div>
+            <div class="footer_2">
+                <h4>Enlaces Permanentes</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="cocteles.html">Cocteles</a></li>
+                    <li><a href="contactanos.html">Contactanos</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4>Privacidad</h4>
+                <ul class="privacy">
+                    <li><a href="#">Policitica y Privacidad</a></li>
+                    <li><a href="#">Terminos y Condiciones</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer_4">
+                <h4>Contactanos</h4>
+                <div>
+                    <p>04145437690</p>
+                    <p>aviarycocteles@gmail.com</p>
+                </div>
+    
+                <ul class="footer_socials">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; Aviary Cocteles </small>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="contactanos.js"></script>
+</body>
+
+</html>
