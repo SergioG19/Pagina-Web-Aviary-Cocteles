@@ -4,6 +4,9 @@
 Esta aplicación consume una api llamada TheCocktailDB, donde se puede obtener ingredientes, medidas, instrucciones para preparar e imagen de su aspecto de múltiples cócteles del mundo. Y que además se utiliza el uso de otra api, para traducir al español la información obtenida de los cocteles, ya que ésta está en ingles.
  
 ## Video Explicativo del codigo
+
+## Figma del Proyecto
+https://www.figma.com/file/d1sk34MSZNKeWbL5zYnR9g/wireframe?type=design&node-id=0%3A1&mode=design&t=ceO1aWRtGGfGmdnv-1
  
 ## Funcionalidades Principales 
 - Sirve para conocer las ingredientes, medidas, instrucciones de preparación de bebidas tipo cóctel. 
