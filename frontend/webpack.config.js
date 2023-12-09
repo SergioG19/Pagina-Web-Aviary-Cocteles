@@ -31,9 +31,24 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin ({
       inject: true,
-      template: './public/index.html',
-      filename: './index.html'
+      template: './public/index.html', 
+      filename: './index.html', 
     }),
+    new HtmlWebpackPlugin({
+        inject: true,
+        template: './public/sobrenosotros.html',
+        filename: './sobrenosotros.html',
+      }),
+      new HtmlWebpackPlugin({
+        inject: true,
+        template: './public/cocteles.html',
+        filename: './cocteles.html',
+      }),
+      new HtmlWebpackPlugin({
+        inject: true,
+        template: './public/contactanos.html',
+        filename: './contactanos.html',
+      }),
     new MiniCssExtractPlugin(),
   ]
 }
